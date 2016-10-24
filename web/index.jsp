@@ -11,6 +11,10 @@
     <title>JFreeCharts - Example</title>
   </head>
   <body>
-  <h1>Index.html</h1>
+  <form action="/pie" method="GET">
+    Qtty1: <input type="number" name="qtty1">
+    Qtty2: <input type="number" name="qtty2">
+    <input type="submit" value="Generate">
+  </form>
   </body>
 </html>
